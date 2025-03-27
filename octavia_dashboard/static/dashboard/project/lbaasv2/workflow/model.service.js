@@ -86,7 +86,7 @@
       members: [],
       networks: {},
       flavors: {},
-      listenerProtocols: ['HTTP', 'TCP', 'TERMINATED_HTTPS', 'HTTPS', 'UDP', 'SCTP'],
+      listenerProtocols: ['HTTP', 'TCP', 'TERMINATED_HTTPS', 'HTTPS', 'UDP', 'SCTP', 'PROMETHEUS'],
       availability_zones: {},
       l7policyActions: ['REJECT', 'REDIRECT_TO_URL', 'REDIRECT_TO_POOL'],
       l7ruleTypes: ['HOST_NAME', 'PATH', 'FILE_TYPE', 'HEADER', 'COOKIE'],
