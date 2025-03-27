@@ -54,7 +54,7 @@
     ////////////
 
     function protocolChange(protocol) {
-      var defaultPort = { HTTP: 80, TERMINATED_HTTPS: 443 }[protocol];
+      var defaultPort = { HTTP: 80, TERMINATED_HTTPS: 443, PROMETHEUS: 9155 }[protocol];
       while (listenerPortExists(defaultPort)) {
         defaultPort += 1;
       }
